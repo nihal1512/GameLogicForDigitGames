@@ -9,7 +9,7 @@ void main() {
   // Convert the input string to a list of integers.
   List<int> digits = input.split('').map(int.parse).toList();
 
-// Checking dulicates
+  // Checking dulicates
   for (int digit in digits) {
     if (usedNumbers.contains(digit)) {
       print('Error: You cannot enter the same number twice.');
