@@ -12,7 +12,7 @@ void main() {
     for (int i = 0; i < numbersList.length; i++) {
       for (int j = i; j < numbersList.length; j++) {
         for (int k = j; k < numbersList.length; k++) {
-          if (i != j && j != k && i != k) {
+          if (i == j || j == k && i != k) {
             int sum = numbersList[i] + numbersList[j] + numbersList[k];
             if (sum % 10 == input) {
               String concatenate =
