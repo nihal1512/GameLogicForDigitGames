@@ -25,11 +25,7 @@ void main() {
     digits.add(0);
   }
 
-  // Sort the remaining digits in ascending order.
-
-  // Create a list to store the combinations.
   List<String> combinations = [];
-
 
   // Iterate through the list of digits and generate combinations.
   for (int i = 0; i < digits.length - 1; i++) { // 1 
